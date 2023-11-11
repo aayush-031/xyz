@@ -1,0 +1,48 @@
+{
+  "name": "react-rick",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@playwright/test": "^1.39.0",
+    "@popperjs/core": "^2.11.8",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^5.3.2",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-paginate": "^7.1.5",
+    "react-router-dom": "^6.18.0",
+    "react-scripts": "4.0.3",
+    "sass": "^1.69.5",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "playwright test",
+    "eject": "react-scripts eject",
+    "lint": "npm run format && eslint",
+    "format": "prettier --write \"$(git diff --name-only --cached --diff-filter=d)\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

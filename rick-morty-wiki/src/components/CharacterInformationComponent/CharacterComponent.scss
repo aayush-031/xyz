@@ -1,0 +1,71 @@
+/* CharacterComponent.css */
+
+.container {
+  margin-top: 20px;
+}
+
+.row {
+  align-items: start;
+}
+
+.col-md-6 {
+  margin-bottom: 20px;
+}
+
+.img-fluid {
+  width: 100%;
+  max-height: 500px;
+}
+
+.text-center {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.badge {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+
+.badge-danger {
+  background-color: #dc3545;
+}
+
+.badge-success {
+  background-color: #28a745;
+}
+
+.badge-secondary {
+  background-color: #6c757d;
+}
+
+.content {
+  font-size: 1.2rem;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  background-color: transparent;
+}
+
+.table td,
+.table th {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+/* Add more styles as needed */
+
